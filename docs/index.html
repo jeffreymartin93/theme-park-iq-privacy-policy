@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Theme Park IQ</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0527;
+      --surface: #1a0f3a;
+      --border: #2e1f5e;
+      --accent: #7c3aed;
+      --accent-light: #a78bfa;
+      --text: #e2d9f3;
+      --muted: #9d8ec0;
+      --heading: #f5f0ff;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    header .logo {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--heading);
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: var(--muted);
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 2.25rem 0 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.4rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin: 1.25rem 0;
+    }
+
+    .card strong {
+      color: var(--heading);
+    }
+
+    .highlight {
+      background: #1e0f4a;
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f3ff;
+        --surface: #ffffff;
+        --border: #ddd6fe;
+        --accent: #7c3aed;
+        --accent-light: #6d28d9;
+        --text: #1e1b4b;
+        --muted: #6b7280;
+        --heading: #1e1b4b;
+      }
+      .highlight {
+        background: #ede9fe;
+        border-left-color: var(--accent);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">🎢</div>
+      <h1>Privacy Policy</h1>
+      <p>Theme Park IQ &nbsp;·&nbsp; Effective date: June 11, 2026</p>
+    </header>
+
+    <p>
+      Thank you for playing <strong>Theme Park IQ</strong>. This policy explains what information we
+      collect when you use the app, how we use it, and your rights around that data.
+    </p>
+
+    <div class="highlight">
+      <strong>Short version:</strong> We do not collect your name, email address, phone number, or
+      any personally identifiable information. The only account data we store is a nickname you
+      choose and your in-game scores.
+    </div>
+
+    <!-- 1 -->
+    <h2>1. Information We Collect</h2>
+
+    <p>When you use Theme Park IQ, we collect the following information:</p>
+
+    <div class="card">
+      <p><strong>Anonymous Account Identifier</strong></p>
+      <p>
+        We use Firebase Anonymous Authentication to give you an account without requiring you to
+        register. Firebase automatically assigns a random unique ID to your device session. This ID
+        is not linked to your name, email, or any other personal information.
+      </p>
+    </div>
+
+    <div class="card">
+      <p><strong>Nickname</strong></p>
+      <p>
+        During onboarding you choose a nickname (display name) that appears on the leaderboard.
+        This nickname is visible to other players. We recommend choosing a nickname that does not
+        reveal your real name or other personal details.
+      </p>
+    </div>
+
+    <div class="card">
+      <p><strong>Gameplay Data</strong></p>
+      <p>We record your in-game activity, including:</p>
+      <ul>
+        <li>Quiz scores and total score per session</li>
+        <li>Answer streaks</li>
+        <li>Number of correct answers</li>
+        <li>Difficulty level selected</li>
+        <li>Theme park selected</li>
+        <li>Date and time a game was played</li>
+        <li>Number of games played and your all-time best score and streak</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><strong>Device Storage</strong></p>
+      <p>
+        We store your authentication session locally on your device (via AsyncStorage) so you stay
+        signed in between app launches. No other data is written to your device outside of normal
+        app operation.
+      </p>
+    </div>
+
+    <!-- 2 -->
+    <h2>2. Information We Do <em>Not</em> Collect</h2>
+
+    <ul>
+      <li>Name, email address, or phone number</li>
+      <li>Passwords or credentials of any kind</li>
+      <li>Precise or approximate location</li>
+      <li>Contacts or address book</li>
+      <li>Photos, camera, or microphone access</li>
+      <li>Browsing history or cross-app activity</li>
+      <li>Payment or financial information</li>
+      <li>Health or fitness data</li>
+    </ul>
+
+    <!-- 3 -->
+    <h2>3. How We Use Your Information</h2>
+
+    <p>The data we collect is used solely to operate the app:</p>
+
+    <ul>
+      <li>Display your nickname and scores on the leaderboard</li>
+      <li>Track your personal best scores and streaks across sessions</li>
+      <li>Identify your account so your progress is saved between app launches</li>
+    </ul>
+
+    <p>We do not use your data for advertising, profiling, or any commercial purpose beyond providing the game experience.</p>
+
+    <!-- 4 -->
+    <h2>4. Leaderboard &amp; Visibility</h2>
+
+    <p>
+      Your nickname and daily scores are visible to other authenticated users of the app on the
+      leaderboard. If you do not want your score to be publicly visible, please choose a nickname
+      that does not identify you and be aware that scores are displayed to all players.
+    </p>
+
+    <!-- 5 -->
+    <h2>5. Third-Party Services</h2>
+
+    <p>Theme Park IQ uses <strong>Google Firebase</strong> to power its backend:</p>
+
+    <ul>
+      <li><strong>Firebase Authentication</strong> — manages your anonymous account session</li>
+      <li><strong>Cloud Firestore</strong> — stores your nickname, scores, and gameplay statistics</li>
+    </ul>
+
+    <p>
+      Firebase is operated by Google LLC and subject to Google's Privacy Policy, available at
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a>.
+      Data stored in Firebase may be processed on servers located outside your country of residence.
+    </p>
+
+    <p>We do not use any advertising SDKs, analytics platforms, or other third-party data processors.</p>
+
+    <!-- 6 -->
+    <h2>6. Data Retention</h2>
+
+    <p>
+      Your gameplay data and nickname are retained for as long as your account is active.
+      Because we use anonymous authentication, there is no account deletion flow in the app at
+      this time. If you would like your data removed, please contact us at the address below and
+      we will delete your records manually within 30 days.
+    </p>
+
+    <!-- 7 -->
+    <h2>7. Children's Privacy</h2>
+
+    <p>
+      Theme Park IQ is a general-audience app. We do not knowingly collect personal information
+      from children under 13 (or the applicable age in your jurisdiction). Because we use
+      anonymous authentication and collect no personal information, the app does not ask for name,
+      email, or contact details from any user regardless of age.
+    </p>
+
+    <!-- 8 -->
+    <h2>8. Security</h2>
+
+    <p>
+      All data is transmitted over encrypted connections (HTTPS/TLS). Access to your Firestore
+      data is restricted by Firebase Security Rules so that only your own anonymous account can
+      read or write your personal records. Leaderboard data is readable by all authenticated users,
+      as described in Section 4.
+    </p>
+
+    <!-- 9 -->
+    <h2>9. Changes to This Policy</h2>
+
+    <p>
+      We may update this policy from time to time. When we do, we will update the effective date
+      at the top of this page. Continued use of the app after changes are posted constitutes your
+      acceptance of the revised policy.
+    </p>
+
+    <!-- 10 -->
+    <h2>10. Contact Us</h2>
+
+    <p>
+      If you have questions about this privacy policy or would like to request deletion of your
+      data, please contact:
+    </p>
+
+    <div class="card">
+      <p><strong>Jeff Martin</strong><br />
+      Developer, Theme Park IQ<br />
+      <!-- TODO: replace with your contact email -->
+      Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    </div>
+
+    <footer>
+      <p>Theme Park IQ &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp; Last updated June 11, 2026</p>
+    </footer>
+
+  </div>
+</body>
+</html>
